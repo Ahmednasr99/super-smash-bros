@@ -1,4 +1,4 @@
-.fighters-grid{
+/*.fighters-grid{
   background-color: #ccc;
   border: 1px solid #858585;
   border-radius: 5px;
@@ -30,6 +30,42 @@ border: 5px solid white;
   background-color: #fff;
   width: 50%;
   border: 1px solid black ;
+  position: fixed;
+  bottom: 0;
+}*/
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fighters-grid {
+  display: flex;
+  background-color: #ccc;
+  border: 1px solid #858585;
+  border-radius: 5px;
+  min-width: 45%;
+  min-height: 500px;
+}
+.fighter {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  transition: 0.3s;
+  background-size: cover;
+  border: 5px solid transparent;
+  background-repeat: no-repeat;
+}
+.fighter:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  border: 5px solid white;
+}
+.fighter-screen {
+  background-color: #fff;
+  border: 1px solid blue;
+  width: 50%;
   position: fixed;
   bottom: 0;
 }

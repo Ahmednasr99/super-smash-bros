@@ -2,10 +2,14 @@ import { useState } from "react"
 
 
 
-export default({name,color,setvisible})=>{
+// eslint-disable-next-line import/no-anonymous-default-export
+export default({name,color,setvisible,selectedCharacter})=>{
     return(
         <div
-        onClick={()=>{setvisible(true)}}
+        onClick={()=>{
+            setvisible(true)
+            selectedCharacter({name:name,color:color})}
+        }
         className='fighter' 
         style={{backgroundColor:color,
         backgroundImage: `url(https://www.smashbros.com/assets_v2/img/fighter/${name.toLowerCase()}/main.png)`}}>
