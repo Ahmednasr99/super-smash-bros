@@ -7,9 +7,9 @@ function App() {
     <div className="App">
       <h1>Fighters</h1>
       <div className='fighters-grid'>
-        <Fighter name={'roy'} color={'red'}/>
-        <Fighter name={'fox'} color={'yellow'}/>
-        <Fighter name={'gandolf'} color={'green'}/>
+        <Fighter name={'roy'} color={'red'} img={''}/>
+        <Fighter name={'fox'} color={'yellow'} img={''}/>
+        <Fighter name={'ganondorf'} color={'green'} img={''}/>
       
 
         
