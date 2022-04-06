@@ -5,9 +5,13 @@ import Fighter from './componant/Fighter';
 import FighterScreen from './componant/FighterScreen';
 const characters = [
   {name:'roy',color:'red'},
-  {name:'fox',color:'red'},
-  {name:'ganondorf',color:'red'},
+  {name:'fox',color:'yellow'},
+  {name:'ganondorf',color:'green'},
   {name:'sheik',color:'red'},
+  {name:'cloud',color:'pink'},
+  {name:'zelda',color:'lightskyblue'},
+  {name:'link',color:'lightskyblue'},
+  {name:'falco',color:'lightskyblue'},
 
 ]
 // this is a component

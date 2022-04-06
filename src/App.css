@@ -42,17 +42,19 @@ border: 5px solid white;
 }
 .fighters-grid {
   display: flex;
+  flex-wrap: wrap;
   background-color: #ccc;
   border: 1px solid #858585;
+  width: min-content;
   border-radius: 5px;
-  min-width: 45%;
+  min-width: 840px;
   min-height: 500px;
 }
 .fighter {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   background-color: red;
-  transition: 0.3s;
+  transition: transform 0.3s;
   background-size: cover;
   border: 5px solid transparent;
   background-repeat: no-repeat;
