@@ -3,6 +3,8 @@ import { useState } from 'react';
 import './App.css';
 import Fighter from './componant/Fighter';
 import FighterScreen from './componant/FighterScreen';
+import SideNavigate from './componant/SideNavigate';
+
 const characters = [
   {name:'roy',color:'red'},
   {name:'fox',color:'yellow'},

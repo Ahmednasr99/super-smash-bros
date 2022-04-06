@@ -48,7 +48,7 @@ border: 5px solid white;
   width: min-content;
   border-radius: 5px;
   min-width: 840px;
-  min-height: 500px;
+  min-height: min-content;
 }
 .fighter {
   height: 200px;
@@ -67,7 +67,7 @@ border: 5px solid white;
 .fighter-screen {
   background-color: #fff;
   border: 1px solid blue;
-  width: 50%;
+  width: 100%;
   position: fixed;
   bottom: 0;
 }
